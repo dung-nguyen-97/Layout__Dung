@@ -4,6 +4,7 @@ import React from "react";
 import Header from "./Component/Header";
 import Carousel from "./Component/Carousel";
 import Service from "./Component/Service";
+import Work from "./Component/Work";
 
 import "./App.css";
 import "./App.scss";
@@ -14,6 +15,9 @@ function App() {
       <Header />
       <Carousel />
       <Service />
+      <hr />
+      <Work />
+      <br />
     </div>
   );
 }
