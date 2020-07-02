@@ -20,9 +20,9 @@ $green: #76c38f;
     &-content {
       display: block;
 
-      height: 15rem;
+      height: 13rem;
       position: relative;
-      border: 5px solid #5c5c5c;
+      border: 4px solid #5c5c5c;
       overflow: hidden;
       img {
         width: 100%;
@@ -38,6 +38,7 @@ $green: #76c38f;
         bottom: 0;
         left: 0;
         width: 100%;
+        transition: all 0.5s;
 
         margin-bottom: 0;
         background-color: rgba(0, 0, 0, 0.6);
@@ -50,7 +51,7 @@ $green: #76c38f;
           filter: grayscale(0);
         }
         p {
-          display: none;
+          transform: translateY(50px);
         }
       }
     }
