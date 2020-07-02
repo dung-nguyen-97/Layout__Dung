@@ -1,0 +1,33 @@
+.footer {
+  &__items {
+    text-align: start;
+    color: white;
+    &__title {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    &__detail {
+      font-size: 0.7rem;
+      p {
+        cursor: pointer;
+        &:first-child {
+          font-weight: bold;
+          color: #76c38f;
+        }
+      }
+    }
+  }
+}
+.footer-bottom {
+  background-color: #292e33;
+  color: #757575;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 -1px 1px 0 black;
+  p {
+    margin: 0;
+    padding: 0.5rem;
+  }
+}

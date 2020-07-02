@@ -33,16 +33,16 @@ $green: #76c38f;
       }
     }
     &__logo {
-      margin-left: 3.2rem;
       color: white;
-      padding: 1rem;
+      padding: 1rem 0;
 
       h2 {
         font-size: 2.2rem;
       }
       p {
         color: #999999;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+        text-align: left;
       }
       &:hover {
         cursor: pointer;

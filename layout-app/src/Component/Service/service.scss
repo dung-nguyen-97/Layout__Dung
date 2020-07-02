@@ -1,10 +1,17 @@
-.service-item {
-  &-detail {
-    width: 2rem;
-    height: 100%;
-
-    background-color: darkslategray;
-
-    margin: 2px;
+.service {
+  align-items: center;
+  &__items {
+    background-color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    h6 {
+      font-size: 2rem;
+    }
+    i {
+      font-size: 7rem;
+    }
+    p {
+      color: #5c5c5c;
+    }
   }
 }

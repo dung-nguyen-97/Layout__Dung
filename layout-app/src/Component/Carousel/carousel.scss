@@ -1,21 +1,45 @@
+$green: #76c38f;
 .w-100 {
   height: 30rem !important;
 }
-.carousel-item {
-  position: relative;
-  img {
-    opacity: 0;
-  }
-  &-detail {
-    position: relative;
-    h1 {
-      position: absolute;
-      font-size: 2rem;
-      top: 200;
-      left: 200;
+.carousel__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__items {
+    // padding: 2rem;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+    text-align: left;
+    &-detail {
+      color: white;
+      h2 {
+        font-size: 3.5rem;
+      }
+      p {
+        color: #5c5c5c;
+      }
+      button {
+        background-color: $green;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+
+        padding: 0.5rem;
+      }
+    }
+    &-img {
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+
+        border: 1.2rem solid #5c5c5c;
+      }
     }
   }
-}
-.carousel-control-prev-icon {
-  color: #76c38f;
 }

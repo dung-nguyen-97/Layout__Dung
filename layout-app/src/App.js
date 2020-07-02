@@ -8,6 +8,7 @@ import Work from "./Component/Work";
 
 import "./App.css";
 import "./App.scss";
+import Footer from "./Component/Footer";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Service />
       <hr />
       <Work />
-      <br />
+      <Footer />
     </div>
   );
 }
