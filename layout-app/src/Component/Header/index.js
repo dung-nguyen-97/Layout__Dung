@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="header__top" />
-      <div className="header__menu">
+      <div className="header__menu container">
         <div className="header__menu__logo">
           <h2>The Modernist</h2>
           <p>Free PSD Website Templace</p>

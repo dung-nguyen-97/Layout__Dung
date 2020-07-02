@@ -1,4 +1,11 @@
 $green: #76c38f;
 .App {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("https://images.pexels.com/photos/4081086/pexels-photo-4081086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+      no-repeat;
   background-color: #5c5c5c;
 }
