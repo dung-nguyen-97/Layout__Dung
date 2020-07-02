@@ -22,7 +22,7 @@ $green: #76c38f;
 
       height: 13rem;
       position: relative;
-      border: 4px solid #5c5c5c;
+      border: 5px solid white;
       overflow: hidden;
       img {
         width: 100%;
@@ -30,6 +30,7 @@ $green: #76c38f;
         background-position: center center;
         background-size: cover;
         filter: grayscale(100%);
+        transition: all 0.5s;
       }
       p {
         color: white;
@@ -44,11 +45,12 @@ $green: #76c38f;
         background-color: rgba(0, 0, 0, 0.6);
       }
       &:hover {
-        transition: all 0.5s;
+        transition: all 2s;
 
         border: 5px solid $green;
         img {
           filter: grayscale(0);
+          transform: scale(1.2);
         }
         p {
           transform: translateY(50px);

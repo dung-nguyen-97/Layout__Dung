@@ -5,9 +5,7 @@ import "./work.scss";
 export default function Work() {
   return (
     <div className="work container">
-      <div className="work__title">
-        <h3>latest work</h3>
-      </div>
+      <h3 className="work__title">latest work</h3>
       <div className="work__items">
         <div className="work__items-content">
           <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="" />
